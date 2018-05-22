@@ -109,7 +109,7 @@ namespace WindowsFormsApp1
 
             time = new DateTime(dateTimePicker1.Value.Ticks);
 
-            Api.Authorize(new ApiAuthParams
+            Api.AuthorizeAsync(new ApiAuthParams
             {
                 AccessToken = Settings1.Default.Token
             });
@@ -203,35 +203,7 @@ namespace WindowsFormsApp1
                 return ex;
             }
         }
-        private void BtnPost_Click(object sender, EventArgs e)
-        {
-            btnPost.Enabled = false;
-
-            var user_post_id = (long)Settings1.Default.user_id_post;
-
-            var result = PostProcess(user_post_id, Api);
-
-            if (result != null)
-                Notify.ShowBalloonTip(10, "Не-а, на сегодня хватит", "Выбери отложенную публикацию и другую дату", ToolTipIcon.Warning);
-            else
-            {
-                Notify.Visible = true;
-
-                if (DelayPost.Checked)
-                    Notify.ShowBalloonTip(10, "Готово", "я отложила публикацию на " + time.Hour + ":" + time.Minute + " выбранной даты", ToolTipIcon.Info);
-                else
-                    Notify.ShowBalloonTip(10, "Готово", "Я опубликовала эту красавицу ", ToolTipIcon.Info);
-
-            }
-
-        }
-
-        private void btnNe_Click(object sender, EventArgs e)
-        {
-            btnPost.Enabled = true;
-            TargetDraw((int)targetArray[rand.Next(1, 990)]);
-        }
-
+       
 
 
         VkNet.Enums.UserSort GetChkBoxPopularState(CheckBox box)
@@ -258,7 +230,7 @@ namespace WindowsFormsApp1
             w1.Dispose();
         }
 
-        private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
+        private void DateTimePicker1_ValueChanged(object sender, EventArgs e)
         {
             btnPost.Enabled = true;
             time = new DateTime(dateTimePicker1.Value.Ticks);
@@ -272,7 +244,7 @@ namespace WindowsFormsApp1
                 dateTimePicker1.Enabled = false;
         }
 
-        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        private void LinkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             // Specify that the link was visited.
             this.linkLabel1.LinkVisited = true;
@@ -280,17 +252,41 @@ namespace WindowsFormsApp1
             // Navigate to a URL.
             System.Diagnostics.Process.Start(url);
         }
-
-
-
-        private void panel2_MouseLeave(object sender, EventArgs e)
+                
+        private void Panel2_MouseLeave(object sender, EventArgs e)
         {
             SearchUpdate();
         }
 
-        private void оПрограммеToolStripMenuItem_Click(object sender, EventArgs e)
+        private void BtnPost_Click(object sender, EventArgs e)
         {
+            btnPost.Enabled = false;
+
+            var user_post_id = (long)Settings1.Default.user_id_post;
+
+            var result = PostProcess(user_post_id, Api);
+
+            if (result != null)
+                Notify.ShowBalloonTip(10, "Не-а, на сегодня хватит", "Выбери отложенную публикацию и другую дату", ToolTipIcon.Warning);
+            else
+            {
+                Notify.Visible = true;
+
+                if (DelayPost.Checked)
+                    Notify.ShowBalloonTip(10, "Готово", "я отложила публикацию на " + time.Hour + ":" + time.Minute + " выбранной даты", ToolTipIcon.Info);
+                else
+                    Notify.ShowBalloonTip(10, "Готово", "Я опубликовала эту красавицу ", ToolTipIcon.Info);
+
+            }
 
         }
+
+        private void BtnNext_Click(object sender, EventArgs e)
+        {
+            btnPost.Enabled = true;
+            TargetDraw((int)targetArray[rand.Next(1, 990)]);
+        }
+
+
     }
 }
