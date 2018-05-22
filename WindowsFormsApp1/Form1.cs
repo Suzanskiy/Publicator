@@ -25,7 +25,6 @@ namespace WindowsFormsApp1
         int groupId = -159059779;
         long[] targetArray = new long[1000];
         List<MediaAttachment> attachments = new List<MediaAttachment>();
-
         DateTime time = new DateTime();
 
         public Form1()
@@ -42,21 +41,16 @@ namespace WindowsFormsApp1
             pictureBox3.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox4.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox5.SizeMode = PictureBoxSizeMode.Zoom;
-         
-
         }
-       
-         void TargetDraw(int reciever)
+
+        void TargetDraw(int reciever)
         {
             Settings1.Default.user_id_post = reciever;
             pictureBox2.Image = null;
             pictureBox3.Image = null;
             pictureBox4.Image = null;
             pictureBox5.Image = null;
-
             attachments.Clear();
-
-
             try
             {
                 var target = Api.Photo.Get(new PhotoGetParams
@@ -68,14 +62,11 @@ namespace WindowsFormsApp1
                     Extended = true,
 
                 });
-
                 int id = 0;
                 foreach (var Tparam in target)
-                    
                 {
                     switch (id)
                     {
-
                         case 0:
                             pictureBox2.LoadAsync(Tparam.Photo604.ToString());
                             break;
@@ -88,15 +79,11 @@ namespace WindowsFormsApp1
                         case 3:
                             pictureBox5.LoadAsync(Tparam.Photo604.ToString());
                             break;
-
                     }
-
                     attachments.Add(new Photo
                     {
-                        
                         Id = Tparam.Id,
                         OwnerId = Tparam.OwnerId,
-
                     });
                     id++;
                 }
@@ -105,56 +92,52 @@ namespace WindowsFormsApp1
             {
                 TargetDraw(reciever + 1);
                 Notify.ShowBalloonTip(100, "Нет доступа", "я отобразила следующую девушку..", ToolTipIcon.Warning);
-
-
             }
             catch (System.FormatException)
             {
-
                 const string message = "Не верный id!";
                 const string caption = "Ошибка";
                 MessageBox.Show(message, caption,
                                              MessageBoxButtons.OK,
                                              MessageBoxIcon.Question);
-                
             }
 
         }
         Random rand = new Random();
-        private  void Form1_Load(object sender, EventArgs e)
+        private void Form1_Load(object sender, EventArgs e)
         {
-            
-            time = new DateTime( dateTimePicker1.Value.Ticks);
-            
+
+            time = new DateTime(dateTimePicker1.Value.Ticks);
+
             Api.Authorize(new ApiAuthParams
-            {                
+            {
                 AccessToken = Settings1.Default.Token
             });
 
-           
+
             var adm_id = new long[] { long.Parse(Settings1.Default.id) };
             var adm = Api.Users.Get(adm_id, ProfileFields.Photo200);
 
             foreach (var param in adm)
             {
-              
+
                 this.Text = "VkGroup is active, adm - " + param.LastName + " " + param.FirstName;
                 pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
                 pictureBox1.LoadAsync(param.Photo200.ToString());
             }
 
-            UserSearch((bool)chBoxOnline.Checked, GetVkNET(chBoxPopular), (ushort)BoxAgeFrom.Value, (ushort)BoxAgeTo.Value);
+            UserSearch((bool)chBoxOnline.Checked, GetChkBoxPopularState(chBoxPopular), (ushort)BoxAgeFrom.Value, (ushort)BoxAgeTo.Value);
 
 
-            TargetDraw((int)targetArray[rand.Next(1,990)]);
+            TargetDraw((int)targetArray[rand.Next(1, 990)]);
         }
 
-        void UserSearch(bool online, VkNet.Enums.UserSort sort,ushort ageFrom, ushort ageTo )
+        void UserSearch(bool online, VkNet.Enums.UserSort sort, ushort ageFrom, ushort ageTo)
         {
             var users = Api.Users.Search(new UserSearchParams
             {
                 AgeFrom = ageFrom,
-                AgeTo = ageTo,                
+                AgeTo = ageTo,
                 Sort = sort,
                 Online = online,
                 Sex = VkNet.Enums.Sex.Female,
@@ -170,20 +153,18 @@ namespace WindowsFormsApp1
             }
         }
 
-        DateTime GetPublishDate( DateTime  newValue)
+        DateTime GetPublishDate(DateTime newValue)
         {
-            return newValue.AddMinutes(30);            
+            return newValue.AddMinutes(30);
         }
 
-        
-        Exception PostProcess(long user_post_id, VkApi api )
+
+        Exception PostProcess(long user_post_id, VkApi api)
         {
             time = GetPublishDate(time);
             var user_id = api.Users.Get(new long[] { user_post_id });
-
             try
             {
-
                 foreach (var param in user_id)
                 {
                     if (DelayPost.Checked)
@@ -230,21 +211,21 @@ namespace WindowsFormsApp1
 
             var result = PostProcess(user_post_id, Api);
 
-            if(result != null)
+            if (result != null)
                 Notify.ShowBalloonTip(10, "Не-а, на сегодня хватит", "Выбери отложенную публикацию и другую дату", ToolTipIcon.Warning);
             else
             {
                 Notify.Visible = true;
 
-                if(DelayPost.Checked)
-                Notify.ShowBalloonTip(10, "Готово", "я отложила публикацию на "+time.Hour+":"+time.Minute+" выбранной даты", ToolTipIcon.Info);
+                if (DelayPost.Checked)
+                    Notify.ShowBalloonTip(10, "Готово", "я отложила публикацию на " + time.Hour + ":" + time.Minute + " выбранной даты", ToolTipIcon.Info);
                 else
                     Notify.ShowBalloonTip(10, "Готово", "Я опубликовала эту красавицу ", ToolTipIcon.Info);
 
             }
 
         }
-          
+
         private void btnNe_Click(object sender, EventArgs e)
         {
             btnPost.Enabled = true;
@@ -253,18 +234,18 @@ namespace WindowsFormsApp1
 
 
 
-        VkNet.Enums.UserSort GetVkNET(CheckBox box)
+        VkNet.Enums.UserSort GetChkBoxPopularState(CheckBox box)
         {
             return box.Checked ? VkNet.Enums.UserSort.ByPopularity : VkNet.Enums.UserSort.ByRegDate;
         }
 
         void SearchUpdate()
         {
-                  
+
             attachments.Clear();
-            UserSearch((bool)chBoxOnline.Checked, GetVkNET(chBoxPopular), (ushort)BoxAgeFrom.Value, (ushort)BoxAgeTo.Value);
+            UserSearch((bool)chBoxOnline.Checked, GetChkBoxPopularState(chBoxPopular), (ushort)BoxAgeFrom.Value, (ushort)BoxAgeTo.Value);
             TargetDraw((int)targetArray[rand.Next(1, 990)]);
-           
+
         }
 
         private void Notify_MouseClick(object sender, MouseEventArgs e)
@@ -300,13 +281,16 @@ namespace WindowsFormsApp1
             System.Diagnostics.Process.Start(url);
         }
 
-   
+
 
         private void panel2_MouseLeave(object sender, EventArgs e)
         {
             SearchUpdate();
         }
 
- 
+        private void оПрограммеToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
