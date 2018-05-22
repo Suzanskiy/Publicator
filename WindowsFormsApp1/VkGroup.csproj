@@ -204,7 +204,6 @@
     <Analyzer Include="..\packages\SonarAnalyzer.CSharp.6.8.2.4717\analyzers\SonarAnalyzer.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="CookComputing.XmlRpcV3.license.txt" />
     <Content Include="license.txt" />
     <Content Include="Без имени-1.ico" />
   </ItemGroup>
