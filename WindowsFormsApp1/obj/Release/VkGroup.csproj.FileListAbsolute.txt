@@ -1,0 +1,135 @@
+C:\Users\Администратор\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\bin\Release\vkGroup.exe.config
+C:\Users\Администратор\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\bin\Release\vkGroup.exe
+C:\Users\Администратор\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\bin\Release\vkGroup.pdb
+C:\Users\Администратор\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\bin\Release\CookComputing.XmlRpcV3.dll
+C:\Users\Администратор\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\bin\Release\HtmlAgilityPack.dll
+C:\Users\Администратор\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\bin\Release\JetBrains.Annotations.dll
+C:\Users\Администратор\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\bin\Release\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Администратор\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\bin\Release\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Администратор\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\bin\Release\Newtonsoft.Json.dll
+C:\Users\Администратор\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\bin\Release\NLog.dll
+C:\Users\Администратор\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\bin\Release\OpenXNet.dll
+C:\Users\Администратор\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\bin\Release\SimpleInjector.dll
+C:\Users\Администратор\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\bin\Release\System.Net.Http.Extensions.dll
+C:\Users\Администратор\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\bin\Release\System.Net.Http.Primitives.dll
+C:\Users\Администратор\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\bin\Release\VkNet.dll
+C:\Users\Администратор\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\bin\Release\xNet.dll
+C:\Users\Администратор\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\bin\Release\HtmlAgilityPack.pdb
+C:\Users\Администратор\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\bin\Release\HtmlAgilityPack.xml
+C:\Users\Администратор\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\bin\Release\JetBrains.Annotations.xml
+C:\Users\Администратор\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\bin\Release\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\Администратор\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\bin\Release\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\Администратор\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\bin\Release\Newtonsoft.Json.xml
+C:\Users\Администратор\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\bin\Release\NLog.xml
+C:\Users\Администратор\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\bin\Release\OpenXNet.pdb
+C:\Users\Администратор\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\bin\Release\OpenXNet.xml
+C:\Users\Администратор\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\bin\Release\SimpleInjector.xml
+C:\Users\Администратор\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\bin\Release\System.Net.Http.Extensions.xml
+C:\Users\Администратор\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\bin\Release\System.Net.Http.Primitives.xml
+C:\Users\Администратор\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\bin\Release\VkNet.xml
+C:\Users\Администратор\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\bin\Release\xNet.xml
+C:\Users\Администратор\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\obj\Release\VkGroup.csproj.App.config
+C:\Users\Администратор\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\obj\Release\WindowsFormsApp1.Form1.resources
+C:\Users\Администратор\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\obj\Release\WindowsFormsApp1.Form2.resources
+C:\Users\Администратор\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\obj\Release\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\Администратор\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\obj\Release\VkGroup.csproj.GenerateResource.cache
+C:\Users\Администратор\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\obj\Release\VkGroup.csproj.CoreCompileInputs.cache
+C:\Users\Администратор\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\obj\Release\VkGroup.csproj.CopyComplete
+C:\Users\Администратор\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\obj\Release\vkGroup.exe
+C:\Users\Администратор\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\obj\Release\vkGroup.pdb
+C:\Users\Администратор\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\obj\Release\VkGroup.csprojResolveAssemblyReference.cache
+C:\Users\Sergey Suzanskiy\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\bin\Release\vkGroup.exe.config
+C:\Users\Sergey Suzanskiy\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\bin\Release\vkGroup.exe
+C:\Users\Sergey Suzanskiy\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\bin\Release\vkGroup.pdb
+C:\Users\Sergey Suzanskiy\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\bin\Release\CookComputing.XmlRpcV3.dll
+C:\Users\Sergey Suzanskiy\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\bin\Release\HtmlAgilityPack.dll
+C:\Users\Sergey Suzanskiy\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\bin\Release\JetBrains.Annotations.dll
+C:\Users\Sergey Suzanskiy\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\bin\Release\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Sergey Suzanskiy\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\bin\Release\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Sergey Suzanskiy\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\bin\Release\Newtonsoft.Json.dll
+C:\Users\Sergey Suzanskiy\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\bin\Release\NLog.dll
+C:\Users\Sergey Suzanskiy\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\bin\Release\OpenXNet.dll
+C:\Users\Sergey Suzanskiy\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\bin\Release\SimpleInjector.dll
+C:\Users\Sergey Suzanskiy\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\bin\Release\System.Net.Http.Extensions.dll
+C:\Users\Sergey Suzanskiy\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\bin\Release\System.Net.Http.Primitives.dll
+C:\Users\Sergey Suzanskiy\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\bin\Release\VkNet.dll
+C:\Users\Sergey Suzanskiy\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\bin\Release\xNet.dll
+C:\Users\Sergey Suzanskiy\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\bin\Release\HtmlAgilityPack.pdb
+C:\Users\Sergey Suzanskiy\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\bin\Release\HtmlAgilityPack.xml
+C:\Users\Sergey Suzanskiy\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\bin\Release\JetBrains.Annotations.xml
+C:\Users\Sergey Suzanskiy\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\bin\Release\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\Sergey Suzanskiy\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\bin\Release\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\Sergey Suzanskiy\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\bin\Release\Newtonsoft.Json.xml
+C:\Users\Sergey Suzanskiy\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\bin\Release\NLog.xml
+C:\Users\Sergey Suzanskiy\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\bin\Release\OpenXNet.pdb
+C:\Users\Sergey Suzanskiy\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\bin\Release\OpenXNet.xml
+C:\Users\Sergey Suzanskiy\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\bin\Release\SimpleInjector.xml
+C:\Users\Sergey Suzanskiy\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\bin\Release\System.Net.Http.Extensions.xml
+C:\Users\Sergey Suzanskiy\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\bin\Release\System.Net.Http.Primitives.xml
+C:\Users\Sergey Suzanskiy\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\bin\Release\VkNet.xml
+C:\Users\Sergey Suzanskiy\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\bin\Release\xNet.xml
+C:\Users\Sergey Suzanskiy\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\obj\Release\VkGroup.csproj.App.config
+C:\Users\Sergey Suzanskiy\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\obj\Release\VkGroup.csprojResolveAssemblyReference.cache
+C:\Users\Sergey Suzanskiy\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\obj\Release\WindowsFormsApp1.Form1.resources
+C:\Users\Sergey Suzanskiy\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\obj\Release\WindowsFormsApp1.Form2.resources
+C:\Users\Sergey Suzanskiy\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\obj\Release\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\Sergey Suzanskiy\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\obj\Release\VkGroup.csproj.GenerateResource.Cache
+C:\Users\Sergey Suzanskiy\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\obj\Release\VkGroup.csproj.CoreCompileInputs.cache
+C:\Users\Sergey Suzanskiy\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\obj\Release\vkGroup.exe
+C:\Users\Sergey Suzanskiy\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\obj\Release\vkGroup.pdb
+C:\Users\Сузанский Сергей\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\obj\Release\VkGroup.csproj.App.config
+C:\Users\Сузанский Сергей\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\obj\Release\VkGroup.csprojAssemblyReference.cache
+C:\Users\Сузанский Сергей\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\obj\Release\WindowsFormsApp1.Form1.resources
+C:\Users\Сузанский Сергей\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\obj\Release\WindowsFormsApp1.Form2.resources
+C:\Users\Сузанский Сергей\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\obj\Release\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\Сузанский Сергей\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\obj\Release\VkGroup.csproj.GenerateResource.cache
+C:\Users\Сузанский Сергей\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\obj\Release\VkGroup.csproj.CoreCompileInputs.cache
+C:\Users\Сузанский Сергей\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\obj\Release\vkGroup.exe
+C:\Users\Сузанский Сергей\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\obj\Release\vkGroup.pdb
+C:\Users\Сузанский Сергей\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\bin\Release\vkGroup.exe.config
+C:\Users\Сузанский Сергей\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\bin\Release\vkGroup.exe
+C:\Users\Сузанский Сергей\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\bin\Release\vkGroup.pdb
+C:\Users\Сузанский Сергей\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\bin\Release\CookComputing.XmlRpcV3.dll
+C:\Users\Сузанский Сергей\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\bin\Release\HtmlAgilityPack.dll
+C:\Users\Сузанский Сергей\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\bin\Release\JetBrains.Annotations.dll
+C:\Users\Сузанский Сергей\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\bin\Release\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Сузанский Сергей\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\bin\Release\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Сузанский Сергей\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\bin\Release\Newtonsoft.Json.dll
+C:\Users\Сузанский Сергей\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\bin\Release\NLog.dll
+C:\Users\Сузанский Сергей\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\bin\Release\OpenXNet.dll
+C:\Users\Сузанский Сергей\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\bin\Release\SimpleInjector.dll
+C:\Users\Сузанский Сергей\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\bin\Release\System.Net.Http.Extensions.dll
+C:\Users\Сузанский Сергей\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\bin\Release\System.Net.Http.Primitives.dll
+C:\Users\Сузанский Сергей\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\bin\Release\VkNet.dll
+C:\Users\Сузанский Сергей\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\bin\Release\xNet.dll
+C:\Users\Сузанский Сергей\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\bin\Release\HtmlAgilityPack.pdb
+C:\Users\Сузанский Сергей\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\bin\Release\HtmlAgilityPack.xml
+C:\Users\Сузанский Сергей\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\bin\Release\JetBrains.Annotations.xml
+C:\Users\Сузанский Сергей\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\bin\Release\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\Сузанский Сергей\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\bin\Release\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\Сузанский Сергей\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\bin\Release\Newtonsoft.Json.xml
+C:\Users\Сузанский Сергей\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\bin\Release\NLog.xml
+C:\Users\Сузанский Сергей\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\bin\Release\OpenXNet.pdb
+C:\Users\Сузанский Сергей\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\bin\Release\OpenXNet.xml
+C:\Users\Сузанский Сергей\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\bin\Release\SimpleInjector.xml
+C:\Users\Сузанский Сергей\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\bin\Release\System.Net.Http.Extensions.xml
+C:\Users\Сузанский Сергей\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\bin\Release\System.Net.Http.Primitives.xml
+C:\Users\Сузанский Сергей\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\bin\Release\VkNet.xml
+C:\Users\Сузанский Сергей\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\bin\Release\xNet.xml
+C:\Users\Сузанский Сергей\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\obj\Release\VkGroup.csproj.CopyComplete
+C:\Users\Администратор\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\bin\Release\ja-JP\vkGroup.resources.dll
+C:\Users\Администратор\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\obj\Release\WindowsFormsApp1.Form1.ja-JP.resources
+C:\Users\Администратор\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\obj\Release\ja-JP\vkGroup.resources.dll
+C:\Users\Администратор\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\bin\Release\vkGroup.exe.manifest
+C:\Users\Администратор\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\bin\Release\vkGroup.application
+C:\Users\Администратор\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\obj\Release\vkGroup.TrustInfo.xml
+C:\Users\Администратор\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\obj\Release\vkGroup.exe.manifest
+C:\Users\Администратор\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\obj\Release\vkGroup.application
+C:\Users\Sergey Suzanskiy\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\obj\Release\WindowsFormsApp1.Form1.ja-JP.resources
+C:\Users\Sergey Suzanskiy\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\obj\Release\ja-JP\vkGroup.resources.dll
+C:\Users\Sergey Suzanskiy\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\bin\Release\vkGroup.exe.manifest
+C:\Users\Sergey Suzanskiy\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\bin\Release\vkGroup.application
+C:\Users\Sergey Suzanskiy\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\bin\Release\ja-JP\vkGroup.resources.dll
+C:\Users\Sergey Suzanskiy\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\obj\Release\vkGroup.TrustInfo.xml
+C:\Users\Sergey Suzanskiy\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\obj\Release\vkGroup.exe.manifest
+C:\Users\Sergey Suzanskiy\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\obj\Release\vkGroup.application
