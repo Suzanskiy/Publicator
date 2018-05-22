@@ -106,7 +106,6 @@ namespace WindowsFormsApp1
         Random rand = new Random();
         private void Form1_Load(object sender, EventArgs e)
         {
-
             time = new DateTime(dateTimePicker1.Value.Ticks);
 
             Api.AuthorizeAsync(new ApiAuthParams
@@ -127,30 +126,32 @@ namespace WindowsFormsApp1
             }
 
             UserSearch((bool)chBoxOnline.Checked, GetChkBoxPopularState(chBoxPopular), (ushort)BoxAgeFrom.Value, (ushort)BoxAgeTo.Value);
-
-
-            TargetDraw((int)targetArray[rand.Next(1, 990)]);
+           
+                TargetDraw((int)targetArray[rand.Next(1, 990)]);
+            
         }
 
         void UserSearch(bool online, VkNet.Enums.UserSort sort, ushort ageFrom, ushort ageTo)
-        {
-            var users = Api.Users.Search(new UserSearchParams
-            {
-                AgeFrom = ageFrom,
-                AgeTo = ageTo,
-                Sort = sort,
-                Online = online,
-                Sex = VkNet.Enums.Sex.Female,
-                Count = 1000,
-                HasPhoto = true,
+        {          
+               var users = Api.Users.Search(new UserSearchParams
+               {
+                   AgeFrom = ageFrom,
+                   AgeTo = ageTo,
+                   Sort = sort,
+                   Online = online,
+                   Sex = VkNet.Enums.Sex.Female,
+                   Count = 1000,
+                   HasPhoto = true,
 
-            });
+               });
+            
             int i = 0;
-            foreach (var item in users)
-            {
-                targetArray[i] = item.Id;
-                i++;
-            }
+               foreach (var item in users)
+               {
+                   targetArray[i] = item.Id;
+                   i++;
+               }
+          
         }
 
         DateTime GetPublishDate(DateTime newValue)
@@ -213,10 +214,10 @@ namespace WindowsFormsApp1
 
         void SearchUpdate()
         {
-
-            attachments.Clear();
             UserSearch((bool)chBoxOnline.Checked, GetChkBoxPopularState(chBoxPopular), (ushort)BoxAgeFrom.Value, (ushort)BoxAgeTo.Value);
+
             TargetDraw((int)targetArray[rand.Next(1, 990)]);
+            
 
         }
 

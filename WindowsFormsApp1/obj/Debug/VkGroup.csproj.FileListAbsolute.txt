@@ -26,7 +26,6 @@ C:\Users\Администратор\Google Диск\VKgroup\WindowsFormsApp1\Win
 C:\Users\Администратор\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\VkNet.xml
 C:\Users\Администратор\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\xNet.xml
 C:\Users\Администратор\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\VkGroup.csproj.App.config
-C:\Users\Администратор\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\VkGroup.csprojResolveAssemblyReference.cache
 C:\Users\Администратор\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
 C:\Users\Администратор\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form2.resources
 C:\Users\Администратор\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources

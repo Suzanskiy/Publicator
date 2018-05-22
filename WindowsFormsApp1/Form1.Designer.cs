@@ -130,7 +130,7 @@
             // 
             resources.ApplyResources(this.dateTimePicker1, "dateTimePicker1");
             this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.ValueChanged += new System.EventHandler(this.dateTimePicker1_ValueChanged);
+            this.dateTimePicker1.ValueChanged += new System.EventHandler(this.DateTimePicker1_ValueChanged);
             // 
             // pictureBox4
             // 
@@ -168,7 +168,7 @@
             // 
             resources.ApplyResources(this.btnNe, "btnNe");
             this.btnNe.Name = "btnNe";
-            this.btnNe.Click += new System.EventHandler(this.btnNe_Click);
+            this.btnNe.Click += new System.EventHandler(this.BtnNext_Click);
             // 
             // pictureBox3
             // 
@@ -208,7 +208,7 @@
             resources.ApplyResources(this.linkLabel1, "linkLabel1");
             this.linkLabel1.Name = "linkLabel1";
             this.linkLabel1.TabStop = true;
-            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
+            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.LinkLabel1_LinkClicked);
             // 
             // DelayPost
             // 
@@ -221,7 +221,7 @@
             // 
             resources.ApplyResources(this.panel2, "panel2");
             this.panel2.Name = "panel2";
-            this.panel2.MouseLeave += new System.EventHandler(this.panel2_MouseLeave);
+            this.panel2.MouseLeave += new System.EventHandler(this.Panel2_MouseLeave);
             // 
             // Form1
             // 
