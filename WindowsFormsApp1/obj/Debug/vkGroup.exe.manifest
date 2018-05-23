@@ -175,14 +175,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="vkGroup.exe" size="1229840">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="vkGroup.exe" size="1230352">
       <assemblyIdentity name="vkGroup" version="1.0.0.1" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>nKWUDSWLerAyrnEhNM+t2uBXIepns1Sc//6GeDWQ47I=</dsig:DigestValue>
+        <dsig:DigestValue>dT55fmJqdnzff1A4T1snCal9MCYDMT8narOchUHeTfw=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -194,7 +194,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>KhSrKCLFv6wK93CZpbzhCJKRvdsGhDYjm5d/qidHw7M=</dsig:DigestValue>
+        <dsig:DigestValue>MKuktw5oM/RYJvxqezakwuTWcNJ/paTLdGh2qQtJ50A=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

@@ -45,3 +45,4 @@ C:\Users\Администратор\Google Диск\VKgroup\WindowsFormsApp1\Win
 C:\Users\Администратор\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\vkGroup.TrustInfo.xml
 C:\Users\Администратор\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\vkGroup.exe.manifest
 C:\Users\Администратор\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\vkGroup.application
+C:\Users\Администратор\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\VkGroup.csprojResolveAssemblyReference.cache

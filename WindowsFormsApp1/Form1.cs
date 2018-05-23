@@ -171,7 +171,7 @@ namespace WindowsFormsApp1
                     if (DelayPost.Checked)
                     {
 #pragma warning disable S1481 // Unused local variables should be removed
-                        var post = api.Wall.Post(new WallPostParams
+                        var post = api.Wall.PostAsync(new WallPostParams
 #pragma warning restore S1481 // Unused local variables should be removed
                         {
 
@@ -186,7 +186,7 @@ namespace WindowsFormsApp1
                     else
                     {
 #pragma warning disable S1481 // Unused local variables should be removed
-                        var post = api.Wall.Post(new WallPostParams
+                        var post = api.Wall.PostAsync(new WallPostParams
 #pragma warning restore S1481 // Unused local variables should be removed
                         {
                             OwnerId = groupId,
