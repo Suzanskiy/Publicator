@@ -27,6 +27,7 @@ namespace WindowsFormsApp1
         List<MediaAttachment> attachments = new List<MediaAttachment>();
         DateTime time = new DateTime();
 
+
         public Form1()
         {
             InitializeComponent();
@@ -43,7 +44,7 @@ namespace WindowsFormsApp1
             pictureBox5.SizeMode = PictureBoxSizeMode.Zoom;
         }
 
-        void TargetDraw(int reciever)
+        async void TargetDraw(int reciever)
         {
             Settings1.Default.user_id_post = reciever;
             pictureBox2.Image = null;
@@ -53,39 +54,25 @@ namespace WindowsFormsApp1
             attachments.Clear();
             try
             {
-                var target = Api.Photo.Get(new PhotoGetParams
+                VkNet.Utils.VkCollection<Photo> x = await Api.Photo.GetAsync(new PhotoGetParams
                 {
                     Reversed = true,
                     AlbumId = VkNet.Enums.SafetyEnums.PhotoAlbumType.Profile,
                     OwnerId = reciever,
                     Count = Photo_count,
                     Extended = true,
-
                 });
-                int id = 0;
-                foreach (var Tparam in target)
+                for (int i = 0; i < x.Count; i++)
                 {
-                    switch (id)
-                    {
-                        case 0:
-                            pictureBox2.LoadAsync(Tparam.Photo604.ToString());
-                            break;
-                        case 1:
-                            pictureBox3.LoadAsync(Tparam.Photo604.ToString());
-                            break;
-                        case 2:
-                            pictureBox4.LoadAsync(Tparam.Photo604.ToString());
-                            break;
-                        case 3:
-                            pictureBox5.LoadAsync(Tparam.Photo604.ToString());
-                            break;
-                    }
+                    if (i == 0) pictureBox2.LoadAsync(x[i].Photo604.ToString());
+                    if (i == 1) pictureBox3.LoadAsync(x[i].Photo604.ToString());
+                    if (i == 2) pictureBox4.LoadAsync(x[i].Photo604.ToString());
+                    if (i == 3) pictureBox5.LoadAsync(x[i].Photo604.ToString());
                     attachments.Add(new Photo
                     {
-                        Id = Tparam.Id,
-                        OwnerId = Tparam.OwnerId,
+                        Id = x[i].Id,
+                        OwnerId = x[i].OwnerId,
                     });
-                    id++;
                 }
             }
             catch (VkNet.Exception.CannotBlacklistYourselfException)
@@ -110,7 +97,8 @@ namespace WindowsFormsApp1
 
             Api.AuthorizeAsync(new ApiAuthParams
             {
-                AccessToken = Settings1.Default.Token
+                AccessToken = Settings1.Default.Token,
+
             });
 
 
@@ -126,32 +114,33 @@ namespace WindowsFormsApp1
             }
 
             UserSearch((bool)chBoxOnline.Checked, GetChkBoxPopularState(chBoxPopular), (ushort)BoxAgeFrom.Value, (ushort)BoxAgeTo.Value);
-           
-                TargetDraw((int)targetArray[rand.Next(1, 990)]);
-            
+
+            TargetDraw((int)targetArray[rand.Next(1, 990)]);
+
         }
+    
+       void UserSearch(bool online, VkNet.Enums.UserSort sort, ushort ageFrom, ushort ageTo)
+        {
+        var users = Api.Users.Search(new UserSearchParams
+            {
+                AgeFrom = ageFrom,
+                AgeTo = ageTo,
+                Sort = sort,
+                Online = online,
+                Sex = VkNet.Enums.Sex.Female,
+                Count = 1000,
+                HasPhoto = true,
 
-        void UserSearch(bool online, VkNet.Enums.UserSort sort, ushort ageFrom, ushort ageTo)
-        {          
-               var users = Api.Users.Search(new UserSearchParams
-               {
-                   AgeFrom = ageFrom,
-                   AgeTo = ageTo,
-                   Sort = sort,
-                   Online = online,
-                   Sex = VkNet.Enums.Sex.Female,
-                   Count = 1000,
-                   HasPhoto = true,
 
-               });
-            
+            });
+
             int i = 0;
-               foreach (var item in users)
-               {
-                   targetArray[i] = item.Id;
-                   i++;
-               }
-          
+            foreach (var item in users)
+            {
+                targetArray[i] = item.Id;
+                i++;
+            }
+
         }
 
         DateTime GetPublishDate(DateTime newValue)
@@ -204,7 +193,7 @@ namespace WindowsFormsApp1
                 return ex;
             }
         }
-       
+
 
 
         VkNet.Enums.UserSort GetChkBoxPopularState(CheckBox box)
@@ -217,7 +206,7 @@ namespace WindowsFormsApp1
             UserSearch((bool)chBoxOnline.Checked, GetChkBoxPopularState(chBoxPopular), (ushort)BoxAgeFrom.Value, (ushort)BoxAgeTo.Value);
 
             TargetDraw((int)targetArray[rand.Next(1, 990)]);
-            
+
 
         }
 
@@ -253,9 +242,10 @@ namespace WindowsFormsApp1
             // Navigate to a URL.
             System.Diagnostics.Process.Start(url);
         }
-                
+
         private void Panel2_MouseLeave(object sender, EventArgs e)
         {
+
             SearchUpdate();
         }
 

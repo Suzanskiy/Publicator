@@ -2,7 +2,7 @@
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <PublishUrlHistory>ftp://zzz.com.ua/nyvay.zzz.com.ua/proga/|ftp://FTP-EU.SITE4NOW.NET/site1/|ftp://zzz/|/nyvay.zzz.com.ua/proga/|ftp://FTP-EU.SITE4NOW.NET/</PublishUrlHistory>
-    <InstallUrlHistory>https://drive.google.com/drive/folders/1swsLdKqhOg-BviO7VoaeijVzLqgqfCGd/</InstallUrlHistory>
+    <InstallUrlHistory>http://nyvay.zzz.com.ua/proga/|https://drive.google.com/drive/folders/1swsLdKqhOg-BviO7VoaeijVzLqgqfCGd/</InstallUrlHistory>
     <SupportUrlHistory>https://vk.com/suzanskyi</SupportUrlHistory>
     <UpdateUrlHistory>http://nyvay.zzz.com.ua/proga/|https://drive.google.com/drive/folders/11_WsfM7Kx-T8QeTtQa1tkmaHjeEDkS0D/|https://drive.google.com/open%3fid=11_WsfM/|https://drive.google.com/drive/folders/1swsLdKqhOg-BviO7VoaeijVzLqgqfCGd/|https://drive.google.com/drive/folders/1YRjqvrfG5y8zvInF8AZSLI3Ueg_M_jCb/</UpdateUrlHistory>
     <BootstrapperUrlHistory />
