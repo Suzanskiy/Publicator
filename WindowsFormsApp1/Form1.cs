@@ -130,8 +130,6 @@ namespace WindowsFormsApp1
                 Sex = VkNet.Enums.Sex.Female,
                 Count = 1000,
                 HasPhoto = true,
-
-
             });
 
             int i = 0;
@@ -145,7 +143,7 @@ namespace WindowsFormsApp1
 
         DateTime GetPublishDate(DateTime newValue)
         {
-            return newValue.AddMinutes(30);
+            return newValue.AddMinutes(60);
         }
 
 
