@@ -40,6 +40,7 @@ namespace WindowsFormsApp1
                 Settings1.Default.Token = url.Split('&')[0].Split('=')[1];
                 Settings1.Default.id = url.Split('=')[3];
                 this.Close();
+              
             }
 
 

@@ -26,6 +26,7 @@ C:\Users\Администратор\Google Диск\VKgroup\WindowsFormsApp1\Win
 C:\Users\Администратор\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\VkNet.xml
 C:\Users\Администратор\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\xNet.xml
 C:\Users\Администратор\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\VkGroup.csproj.App.config
+C:\Users\Администратор\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\VkGroup.csprojResolveAssemblyReference.cache
 C:\Users\Администратор\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
 C:\Users\Администратор\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form2.resources
 C:\Users\Администратор\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
@@ -37,11 +38,3 @@ C:\Users\Администратор\Google Диск\VKgroup\WindowsFormsApp1\Win
 C:\Users\Администратор\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\vkGroup.pdb
 C:\Users\Администратор\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\vkGroup.exe
 C:\Users\Администратор\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\vkGroup.pdb
-C:\Users\Администратор\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\vkGroup.exe.manifest
-C:\Users\Администратор\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\vkGroup.application
-C:\Users\Администратор\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\ja-JP\vkGroup.resources.dll
-C:\Users\Администратор\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.ja-JP.resources
-C:\Users\Администратор\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\ja-JP\vkGroup.resources.dll
-C:\Users\Администратор\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\vkGroup.TrustInfo.xml
-C:\Users\Администратор\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\vkGroup.exe.manifest
-C:\Users\Администратор\Google Диск\VKgroup\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\vkGroup.application

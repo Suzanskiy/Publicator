@@ -18,7 +18,20 @@ namespace WindowsFormsApp1
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            try
+            {
+                Application.Run(new Form1());
+            }
+            catch (System.Reflection.TargetInvocationException)
+            {
+                MessageBox.Show("Токен выдан другому ip-адрессу");
+
+               Form2 form2 = new Form2();
+                form2.ShowDialog();
+                Form1 form1 = new Form1();
+                form1.ShowDialog();
+            }
+            
         }
     }
 }
