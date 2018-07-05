@@ -6411,6 +6411,10 @@
   <data name="BoxAgeFrom.TabIndex" type="System.Int32, mscorlib">
     <value>12</value>
   </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="BoxAgeFrom.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
   <data name="&gt;&gt;BoxAgeFrom.Name" xml:space="preserve">
     <value>BoxAgeFrom</value>
   </data>
@@ -6458,6 +6462,9 @@
   </data>
   <data name="BoxAgeTo.TabIndex" type="System.Int32, mscorlib">
     <value>12</value>
+  </data>
+  <data name="BoxAgeTo.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
   </data>
   <data name="&gt;&gt;BoxAgeTo.Name" xml:space="preserve">
     <value>BoxAgeTo</value>
@@ -6522,15 +6529,14 @@
   <data name="&gt;&gt;dateTimePicker1.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="pictureBox5.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
   <data name="pictureBox5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>373, 214</value>
+    <value>355, 214</value>
   </data>
   <data name="pictureBox5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>364, 228</value>
+    <value>347, 227</value>
   </data>
   <data name="pictureBox5.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
@@ -6557,7 +6563,7 @@
     <value>3, 3</value>
   </data>
   <data name="pictureBox2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>364, 205</value>
+    <value>346, 205</value>
   </data>
   <data name="pictureBox2.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
@@ -6641,7 +6647,7 @@
     <value>3</value>
   </data>
   <data name="tableLayoutPanel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>740, 493</value>
+    <value>705, 492</value>
   </data>
   <data name="tableLayoutPanel1.TabIndex" type="System.Int32, mscorlib">
     <value>15</value>
@@ -6674,7 +6680,7 @@
     <value>NoControl</value>
   </data>
   <data name="btnPost.Location" type="System.Drawing.Point, System.Drawing">
-    <value>254, 448</value>
+    <value>236, 447</value>
   </data>
   <data name="btnPost.Size" type="System.Drawing.Size, System.Drawing">
     <value>113, 42</value>
@@ -6707,7 +6713,7 @@
     <value>Broadway, 20.25pt, style=Bold, Italic</value>
   </data>
   <data name="btnNe.Location" type="System.Drawing.Point, System.Drawing">
-    <value>373, 448</value>
+    <value>355, 447</value>
   </data>
   <data name="btnNe.Size" type="System.Drawing.Size, System.Drawing">
     <value>113, 42</value>
@@ -6734,10 +6740,10 @@
     <value>Fill</value>
   </data>
   <data name="pictureBox3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>373, 3</value>
+    <value>355, 3</value>
   </data>
   <data name="pictureBox3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>364, 205</value>
+    <value>347, 205</value>
   </data>
   <data name="pictureBox3.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
@@ -6761,7 +6767,7 @@
     <value>3, 214</value>
   </data>
   <data name="pictureBox4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>364, 228</value>
+    <value>346, 227</value>
   </data>
   <data name="pictureBox4.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
@@ -6884,7 +6890,7 @@
     <value>0, 0</value>
   </data>
   <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>963, 501</value>
+    <value>928, 500</value>
   </data>
   <data name="panel1.TabIndex" type="System.Int32, mscorlib">
     <value>16</value>
@@ -6916,14 +6922,11 @@
   <data name="$this.AutoScrollMinSize" type="System.Drawing.Size, System.Drawing">
     <value>300, 300</value>
   </data>
-  <data name="$this.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
   <data name="$this.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>963, 501</value>
+    <value>928, 500</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>

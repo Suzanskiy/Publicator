@@ -98,6 +98,7 @@
             // 
             // BoxAgeFrom
             // 
+            this.BoxAgeFrom.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             resources.ApplyResources(this.BoxAgeFrom, "BoxAgeFrom");
             this.BoxAgeFrom.Name = "BoxAgeFrom";
             this.BoxAgeFrom.Value = new decimal(new int[] {
@@ -113,6 +114,7 @@
             // 
             // BoxAgeTo
             // 
+            this.BoxAgeTo.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             resources.ApplyResources(this.BoxAgeTo, "BoxAgeTo");
             this.BoxAgeTo.Name = "BoxAgeTo";
             this.BoxAgeTo.Value = new decimal(new int[] {
@@ -228,9 +230,10 @@
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.BackColor = System.Drawing.Color.White;
             this.BackgroundImage = global::WindowsFormsApp1.Properties.Resources.Fon;
             this.Controls.Add(this.panel1);
+            this.DoubleBuffered = true;
             this.Name = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

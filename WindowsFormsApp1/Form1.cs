@@ -15,6 +15,9 @@ using xNet;
 using Newtonsoft.Json.Linq;
 using VkNet.Model.Attachments;
 using System.Diagnostics;
+using System.IO;
+using System.Net;
+
 namespace WindowsFormsApp1
 {
     public partial class Form1 : Form
@@ -24,27 +27,28 @@ namespace WindowsFormsApp1
         VkApi Api = new VkApi();
         ulong Photo_count = 4;
         int groupId = -159059779;
+  
         List<MediaAttachment> attachments = new List<MediaAttachment>();
         DateTime time = new DateTime();
         VkNet.Utils.VkCollection<VkNet.Model.User> Userlist;
         public Form1()
-        {
-            InitializeComponent();
+        {            
+            InitializeComponent();            
             form2.ShowDialog();
             System.Drawing.Drawing2D.GraphicsPath gp = new System.Drawing.Drawing2D.GraphicsPath();
             gp.AddEllipse(0, 0, pictureBox1.Width - 3, pictureBox1.Height - 3);
             Region rg = new Region(gp);
             pictureBox1.Region = rg;
-
             pictureBox4.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox3.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox5.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox2.SizeMode = PictureBoxSizeMode.Zoom;
         }
+       
 
-        async void TargetDraw(int reciever)
+            async void TargetDraw(int reciever)
         {
-        
+
             Settings1.Default.user_id_post = reciever;
             pictureBox4.Image = null;
             pictureBox3.Image = null;
@@ -92,8 +96,8 @@ namespace WindowsFormsApp1
         }
         Random rand = new Random();
         private async void Form1_Load(object sender, EventArgs e)
-        {           
-                       
+        {
+            
             await Api.AuthorizeAsync(new ApiAuthParams
             {
             AccessToken = Settings1.Default.Token
@@ -107,13 +111,13 @@ namespace WindowsFormsApp1
 
             foreach (var param in adm)
             {
-            this.Text = "VkGroup is active, adm - " + param.LastName + " " + param.FirstName;
-            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
+                this.Text = "VkGroup is active, adm - " + param.LastName + " " + param.FirstName;
+                pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
                 pictureBox1.LoadAsync(param.Photo200.ToString());
             }
 
-            TargetDraw((int)Userlist[rand.Next(1,1000)].Id);                        
-
+            TargetDraw((int)Userlist[rand.Next(1,1000)].Id);
+           
         }
         
        async Task UserSearch(bool online, VkNet.Enums.UserSort sort, ushort ageFrom, ushort ageTo)
@@ -140,9 +144,20 @@ namespace WindowsFormsApp1
             return newValue.AddMinutes(60);
         }
 
+        string RandomText()
+        {
+            string str;
+            using (StreamReader strr = new StreamReader(HttpWebRequest.Create(@"https://fish-text.ru/get?format=html&number=1").GetResponse().GetResponseStream()))
+                str = strr.ReadToEnd();
+            str = str.Remove(0, 3);
+           str= str.Remove(str.Length-4, 4);
+           
+            return str;
 
+        }
         Exception PostProcess(long user_post_id, VkApi api)
         {
+           
             time = GetPublishDate(time);
             var user_id = api.Users.Get(new long[] { user_post_id });
             try
@@ -159,7 +174,7 @@ namespace WindowsFormsApp1
                             PublishDate = GetPublishDate(time),
                             OwnerId = groupId,
                             FromGroup = true,
-                            Message = "Model: @id" + param.Id + "(" + param.FirstName + " " + param.LastName + ") <3 \n ___________ \n with best wishes, ну вау team. ",
+                            Message = "Model: @id" + param.Id + "(" + param.FirstName + " " + param.LastName + ") <3 \n ___________ \n"+RandomText()+" \n Ну Вау. ",
                             Attachments = attachments,
 
                         });
@@ -172,7 +187,7 @@ namespace WindowsFormsApp1
                         {
                             OwnerId = groupId,
                             FromGroup = true,
-                            Message = "Model: @id" + param.Id + "(" + param.FirstName + " " + param.LastName + ") <3 \n ___________ \n with best wishes, ну вау team. ",
+                            Message = "Model: @id" + param.Id + "(" + param.FirstName + " " + param.LastName + ") <3 \n ___________ \n" + RandomText() + " \n Ну Вау. ",
                             Attachments = attachments,
 
                         });
@@ -196,10 +211,6 @@ namespace WindowsFormsApp1
         async Task SearchUpdate()
         {
             await UserSearch((bool)chBoxOnline.Checked, GetChkBoxPopularState(chBoxPopular), (ushort)BoxAgeFrom.Value, (ushort)BoxAgeTo.Value);
-
-           // TargetDraw((int)Userlist[rand.Next(1, 990)].Id);
-
-
         }
 
         private void Notify_MouseClick(object sender, MouseEventArgs e)
@@ -237,7 +248,6 @@ namespace WindowsFormsApp1
 
         private async void Panel2_MouseLeave(object sender, EventArgs e)
         {
-
            await SearchUpdate();
         }
 

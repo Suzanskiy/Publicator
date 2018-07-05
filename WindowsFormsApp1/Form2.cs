@@ -29,7 +29,7 @@ namespace WindowsFormsApp1
 #pragma warning restore S1075 // URIs should not be hardcoded
            
         }
-
+        
         private void webBrowser1_DocumentCompleted(object sender, WebBrowserDocumentCompletedEventArgs e)
         {
 
