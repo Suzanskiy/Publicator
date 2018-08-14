@@ -77,6 +77,7 @@ namespace WindowsFormsApp1
                         Id = x[i].Id,
                         OwnerId = x[i].OwnerId,
                     });
+                    
                 }
             }
             catch (VkNet.Exception.CannotBlacklistYourselfException)
@@ -203,10 +204,7 @@ namespace WindowsFormsApp1
 
 
 
-        VkNet.Enums.UserSort GetChkBoxPopularState(CheckBox box)
-        {
-            return box.Checked ? VkNet.Enums.UserSort.ByPopularity : VkNet.Enums.UserSort.ByRegDate;
-        }
+        VkNet.Enums.UserSort GetChkBoxPopularState(CheckBox box) => box.Checked ? VkNet.Enums.UserSort.ByPopularity : VkNet.Enums.UserSort.ByRegDate;
 
         async Task SearchUpdate()
         {
@@ -286,6 +284,26 @@ namespace WindowsFormsApp1
                 ex = null;             
             }
             
+        }
+        private void pictureBox2_DoubleClick(object sender, EventArgs e)
+        {
+            attachments.RemoveAt(0);
+            pictureBox2.Visible = false;
+        }
+        private void pictureBox3_DoubleClick(object sender, EventArgs e)
+        {
+            attachments.RemoveAt(1);
+            pictureBox3.Visible = false;
+        }
+        private void pictureBox4_DoubleClick(object sender, EventArgs e)
+        {
+            attachments.RemoveAt(2);
+            pictureBox4.Visible = false;
+        }
+        private void pictureBox5_DoubleClick(object sender, EventArgs e)
+        {
+            attachments.RemoveAt(3);
+            pictureBox5.Visible = false;
         }
 
 
